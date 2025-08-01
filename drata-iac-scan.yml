@@ -3,8 +3,7 @@ name: Drata IaC Scan
 on:
   push:
     branches:
-      - main  # Or your working branch
-
+      - main  
 jobs:
   drata-iac-scan:
     runs-on: ubuntu-latest
